@@ -58,3 +58,11 @@
       </tbody>
     </table>
 </div>
+//Home
+<header class="bg-red-200">
+  <div class="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
+    <a routerLink="/">Home</a>
+    <a routerLink="/products">Product</a>
+  </div>
+</header>
+<router-outlet />
